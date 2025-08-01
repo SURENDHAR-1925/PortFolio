@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surendhar R - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script>
+        (function () { emailjs.init('surendhar9272@gmail.com'); })();
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Surendhar R</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- Theme Mode Toggle Button -->
+            <button id="modeToggle" aria-label="Toggle Dark Mode" style="margin-left: 1rem;">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Surendhar R</h1>
+                <p class="subtitle">Developer & Engineer</p>
+                <p class="description">Self-motivated and determined fresher seeking an entry level position to apply
+                    technical skills in a dynamic work environment while contributing to the company's success.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View Projects
+                    </a>
+                    <a href="mailto:surendhar9272@gmail.com" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="contact-quick">
+                        <h3>Connect With Me</h3>
+                        <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem;">
+                            <a href="https://www.linkedin.com/in/surendhar1925/" class="social-link"
+                                style="width: 40px; height: 40px; font-size: 1rem;">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/SURENDHAR-1925" class="social-link"
+                                style="width: 40px; height: 40px; font-size: 1rem;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:surendhar9272@gmail.com" class="social-link"
+                                style="width: 40px; height: 40px; font-size: 1rem;">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="tel:96778-35424" class="social-link"
+                                style="width: 40px; height: 40px; font-size: 1rem;">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+            <div>
+                <h3 style="color: var(--primary); margin-bottom: 1.5rem; font-size: 1.5rem;">Get to Know Me</h3>
+                <p style="color: var(--gray-600); line-height: 1.8; margin-bottom: 1.5rem; font-size: 1.1rem;">
+                    I'm a self-motivated and determined fresher seeking an entry-level position in software development.
+                    With a strong foundation in various programming languages and technologies, I'm eager to apply my
+                    technical skills in a dynamic work environment.
+                </p>
+                <p style="color: var(--gray-600); line-height: 1.8; margin-bottom: 1.5rem; font-size: 1.1rem;">
+                    My passion lies in creating innovative solutions and continuously learning new technologies. I
+                    believe in the power of clean code, user-centric design, and collaborative development.
+                </p>
+                <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        View My Work
+                    </a>
+                    <a href="mailto:surendra9227@gmail.com" class="btn"
+                        style="background: var(--gray-100); color: var(--gray 800);">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div
+                    style="padding: 2rem; border-radius: 20px; box-shadow: var(--shadow); border: 1px solid var(--gray-200);">
+                    <h3 style="color: var(--primary); margin-bottom: 1.5rem; font-size: 1.3rem;">
+                        <i class="fas fa-user"></i>
+                        Personal Information
+                    </h3>
+                    <div
+                        style="color: var(--gray-600); margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                        <i class="fas fa-graduation-cap" style="color: var(--primary); width: 20px;"></i>
+                        <span>Electronics & Communication Engineering Student</span>
+                    </div>
+                    <div
+                        style="color: var(--gray-600); margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                        <i class="fas fa-map-marker-alt" style="color: var(--primary); width: 20px;"></i>
+                        <span>Puliyampatti, Tamil Nadu, India</span>
+                    </div>
+                    <div
+                        style="color: var(--gray-600); margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                        <i class="fas fa-calendar-alt" style="color: var(--primary); width: 20px;"></i>
+                        <span>Available for Full-time Opportunities</span>
+                    </div>
+                    <div style="margin-top: 2rem; ">
+                        <h4 style="color: var(--primary); margin-bottom: 1rem;">
+                            <i class="fas fa-heart"></i>
+                            Hobbies
+                        </h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;font-size:1.3rem;">
+                            <span class="tech-tag">Learning New Technologies</span>
+                            <span class="tech-tag">Web Development</span>
+                            <span class="tech-tag">Automotive Enthusiast</span>
+                            <span class="tech-tag">Horticulture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section fade-in">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-code"></i>
+                    Programming Languages
+                </h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Java</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-database"></i>
+                    Database & Tools
+                </h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>MySQL</span>
+                        <span>78%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="78"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Git & GitHub</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Excel</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-palette"></i>
+                    Design & Others
+                </h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Illustrator Basic</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Figma Basics</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Problem Solving</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section fade-in">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Online Shopping for Electronic Product</h3>
+                    <p class="project-description">
+                        Implemented robust user authentication and authorization. Designed and implemented a
+                        user-friendly product catalog with search and filtering options. Developed shopping cart
+                        functionality including product addition, removal and quantity updates.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-store"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">E-commerce Platform</h3>
+                    <p class="project-description">
+                        Modern UI with Dynamic Elements: The website features a clean and visually appealing design with
+                        a modern layout. It uses CSS styling and animations, along with interactive elements like
+                        buttons, hover effects, and navigation.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Product Display & Features</h3>
+                    <p class="project-description">
+                        The website effectively highlights products using high-quality images and pricing details. It
+                        includes interactive elements for enhanced user experience and maintains responsive design
+                        principles.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Responsive Design</span>
+                        <span class="tech-tag">UI/UX</span>
+                        <span class="tech-tag">CSS Grid</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section fade-in">
+        <h2 class="section-title">Education</h2>
+        <div class="education-timeline">
+            <div class="education-item">
+                <div class="education-year">2022-2026</div>
+                <div class="education-degree">Bachelor of Engineering in Electronics and Communication Engineering</div>
+                <div class="education-school">Bannari Amman Institute of Technology</div>
+                <div class="education-grade">CGPA: 7</div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-year">2019-2022</div>
+                <div class="education-degree">Diploma in Electrical and Electronics Engineering</div>
+                <div class="education-school">Nanjiah Lingammal Polytechnic College</div>
+                <div class="education-grade">Percentage: 88%</div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-year">2018-2019</div>
+                <div class="education-degree">SSLC</div>
+                <div class="education-school">SRC Memorial Matric Higher Secondary School</div>
+                <div class="education-grade">Percentage: 67%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section id="certification" class="section fade-in">
+        <h2 class="section-title">Certification</h2>
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+            <h3 class="cert-title">Certificate of Honor from CSC</h3>
+            <p class="cert-year">2022-2023</p>
+            <div class="project-tech" style="justify-content: center;">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Java </span>
+                <span class="tech-tag">Excel</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h1>Get In Touch</h1>
+        <p class="sub-title">Let's discuss opportunities and collaborate on exciting projects</p>
+        <div class="container">
+            <div class="contact-info">
+                <div class="info">
+                    <i class="icon">📞</i>
+                    <div>
+                        <strong>Phone</strong>
+                        <p>96778-35424</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <i class="icon">📧</i>
+                    <div>
+                        <strong>Email</strong>
+                        <p>surendhar9227@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <i class="icon">📍</i>
+                    <div>
+                        <strong>Location</strong>
+                        <p>1/204 Kaliyampalayam, Puliyampatti</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <p>Follow Me</p>
+                    <a href="#"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                            alt="LinkedIn" /></a>
+                    <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                            alt="GitHub" /></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="Twitter" /></a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm" onsubmit="openEmailClient(event)">
+                <div class="name-fields">
+                    <input type="text" name="first_name" placeholder="First Name" required />
+                    <input type="text" name="last_name" placeholder="Last Name" required />
+                </div>
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="text" name="subject" placeholder="Subject" required />
+                <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/surendhar1925/" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/SURENDHAR-1925" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="mailto:surendhar9272@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            <a href="tel:96778-35424" class="social-link"><i class="fas fa-phone"></i></a>
+        </div>
+        <p>&copy; 2025 Surendhar R. All rights reserved.</p>
+        <p style="margin-top: 1rem; color: rgba(255, 255, 255, 0.7);">
+            <i class="fas fa-heart" style="color: #ef4444;"></i> Made with passion for innovation
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- i give 3 code html ,css,js code can you check  and correct the code 
+
+and also check the header section the problem is(if i click certificate it will goto contact section and if i click contact opposite process) correct the issue
+
+make light and dark mode
+
+if user fill the contact form send mail to surendhar@gmail.com -->
+
