@@ -155,19 +155,7 @@ modeToggle.addEventListener('click', () => {
     }
 });
 
-// // Contact form email sending (with EmailJS)
-// document.getElementById('contactForm').addEventListener('submit', function(e) {
-//   e.preventDefault();
-//   // EmailJS direct
-//   emailjs.sendForm('service_ndjyrek','template_nbapl4z', this)
-//     .then(() => {
-//       alert("Thank you! Your message has been sent.");
-//       this.reset();
-//     }, (error) => {
-//       alert("Oops, something went wrong. Please try again.");
-//       console.error(error);
-//     });
-// });
+
 function openEmailClient(e) {
     e.preventDefault();
 

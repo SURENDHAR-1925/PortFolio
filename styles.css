@@ -179,7 +179,7 @@
      min-height: 100vh;
      display: flex;
      align-items: center;
-     background: linear-gradient(135deg, #21284a 0%, #764ba2 50%);
+     /* background: linear-gradient(135deg, #21284a 0%, #764ba2 50%); */
      position: relative;
      overflow: hidden;
  }
@@ -191,7 +191,7 @@
      left: 0;
      right: 0;
      bottom: 0;
-     background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+     /* background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>'); */
      animation: drift 20s ease-in-out infinite;
  }
 
@@ -222,7 +222,7 @@
  .hero-text h1 {
      font-size: 4rem;
      font-weight: 800;
-     color: white;
+     /* color: white; */
      line-height: 1.1;
      margin-bottom: 1rem;
      animation: slideUp 1s ease;
@@ -230,14 +230,14 @@
 
  .hero-text .subtitle {
      font-size: 1.5rem;
-     color: rgba(255, 255, 255, 0.9);
+     /* color: rgba(255, 255, 255, 0.9); */
      margin-bottom: 1.5rem;
      animation: slideUp 1s ease 0.2s both;
  }
 
  .hero-text .description {
      font-size: 1.3rem;
-     color: rgba(255, 255, 255, 0.8);
+     /* color: rgba(255, 255, 255, 0.8); */
      margin-bottom: 2rem;
      line-height: 1.7;
      animation: slideUp 1s ease 0.4s both;
@@ -275,25 +275,27 @@
  }
 
  .btn-primary {
-     background: white;
+     /* background: white; */
      color: var(--primary);
-     box-shadow: var(--shadow);
+     color: #0039cb;
+     border: 2px solid rgba(255, 255, 255, 0.3);
+     /* box-shadow: var(--shadow); */
  }
 
  .btn-primary:hover {
-     transform: translateY(-2px);
+     transform: translateY(-5px);
      box-shadow: var(--shadow-lg);
  }
 
  .btn-outline {
      background: transparent;
-     color: white;
+
      border: 2px solid rgba(255, 255, 255, 0.3);
  }
 
  .btn-outline:hover {
-     background: rgba(255, 255, 255, 0.1);
-     border-color: white;
+     transform: translateY(-5px);
+     box-shadow: var(--shadow-lg);
  }
 
  .hero-image {
@@ -313,16 +315,16 @@
  }
 
  .profile-image {
-     width: 200px;
-     height: 200px;
-     border-radius: 50%;
-     background: var(--gradient-accent);
+     flex: 1;
      display: flex;
-     align-items: center;
+     
      justify-content: center;
-     font-size: 4rem;
-     color: white;
-     margin-bottom: 1rem;
+ }
+
+ .profile-image img {
+     max-width: 350px;
+     border-radius: 10px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
  }
 
  .contact-quick {
