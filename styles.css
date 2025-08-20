@@ -29,6 +29,8 @@
      color: var(--text);
      transition: background 0.3s, color 0.3s;
      overflow-x: hidden;
+     justify-content: center;
+     align-items: center;
  }
 
  body.dark-mode {
@@ -206,7 +208,7 @@
  }
 
  .hero-content {
-     max-width: 1200px;
+     max-width: 1000px;
      margin: 0 auto;
      padding: 0 2rem;
      display: grid;
