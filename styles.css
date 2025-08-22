@@ -278,7 +278,7 @@
      /* background: white; */
      color: var(--primary);
      color: #0039cb;
-     border: 2px solid rgba(255, 255, 255, 0.3);
+      border: 2px solid rgba(255, 255, 255, 0.3);
      /* box-shadow: var(--shadow); */
  }
 
@@ -315,16 +315,24 @@
  }
 
  .profile-image {
-     flex: 1;
+     /* width: 100px;
+     height: 200px;
+     border-radius: 50%;
+     background: var(--gradient-accent);
      display: flex;
-     
+     align-items: center;
      justify-content: center;
+     font-size: 4rem;
+     color: white;
+     margin-bottom: 1rem; */
+      flex: 1;
+  display: flex;
+  justify-content: center;
  }
-
- .profile-image img {
-     max-width: 350px;
-     border-radius: 10px;
-     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+ .profile-image img{
+    max-width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
  }
 
  .contact-quick {
