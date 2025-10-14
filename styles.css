@@ -30,6 +30,7 @@
      transition: background 0.3s, color 0.3s;
      overflow-x: hidden;
      justify-content: center;
+     margin: auto;
      align-items: center;
  }
 
@@ -315,16 +316,6 @@
  }
 
  .profile-image {
-     /* width: 100px;
-     height: 200px;
-     border-radius: 50%;
-     background: var(--gradient-accent);
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     font-size: 4rem;
-     color: white;
-     margin-bottom: 1rem; */
       flex: 1;
   display: flex;
   justify-content: center;
