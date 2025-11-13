@@ -34,6 +34,8 @@
      align-items: center;
  }
 
+
+ 
  body.dark-mode {
      --background: #1a1a2e;
      --text: #f0f0f0;
