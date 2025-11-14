@@ -145,15 +145,15 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 });
 
 // Theme Mode Toggle
-const modeToggle = document.getElementById('modeToggle');
-modeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    if (document.body.classList.contains('dark-mode')) {
-        modeToggle.textContent = '☀️';
-    } else {
-        modeToggle.textContent = '🌙';
-    }
-});
+// const modeToggle = document.getElementById('modeToggle');
+// modeToggle.addEventListener('click', () => {
+//     document.body.classList.toggle('dark-mode');
+//     if (document.body.classList.contains('dark-mode')) {
+//         modeToggle.textContent = '☀️';
+//     } else {
+//         modeToggle.textContent = '🌙';
+//     }
+// });
 
 
 function openEmailClient(e) {
