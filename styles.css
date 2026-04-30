@@ -203,7 +203,7 @@ button:hover, .btn:hover {
     z-index: 0;
 }
 
-.hero::after {
+.bg-video::after {
     content: "";
     position: absolute;
     top: 0;
