@@ -470,9 +470,9 @@ button:hover, .btn:hover {
  }
 
  .project-card:hover {
-     transform: translateY(+20px);
-     box-shadow: var(--shadow-lg);
- }
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+}
 
  .project-header {
      height: 200px;
@@ -486,6 +486,11 @@ button:hover, .btn:hover {
      overflow: hidden;
  }
 
+ .project-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
  .project-header::before {
      content: '';
      position: absolute;
