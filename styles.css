@@ -284,7 +284,7 @@ button:hover, .btn:hover {
  }
 
  .btn {
-     padding: 1rem 2rem;
+     padding: 1rem 1rem;
      border-radius: 50px;
      font-weight: 600;
      text-decoration: none;
@@ -297,10 +297,11 @@ button:hover, .btn:hover {
  }
 
  .btn-primary {
-     /* background: white; */
+     /* background: white;  */
+     padding: 1rem 1rem;
      color: var(--primary);
-     color: #0039cb;
-      border: 2px solid rgba(255, 255, 255, 0.3);
+     color: #0149ff; 
+    border: 2px solid rgba(255, 255, 255, 0.3);
      /* box-shadow: var(--shadow); */
  }
 
